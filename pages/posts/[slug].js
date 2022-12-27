@@ -27,7 +27,7 @@ const Post = ({ post }) => {
     <>
       {post && (
         <article className="post-container">
-          <h1>{title}</h1>
+          <h1>{post.title}</h1>
           <hr />
           <div className="tag-container">
             {categories?.map((category) => (
