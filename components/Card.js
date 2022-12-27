@@ -2,6 +2,7 @@ import { urlFor } from "../lib/sanity";
 import Tag from "./Tag";
 import { forwardRef } from "react";
 
+// eslint-disable-next-line react/display-name
 const Card = forwardRef(({ onClick, href, post }, ref) => {
   const { title, publishedAt, mainImage, username, authorImage, categories } =
     post;
