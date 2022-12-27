@@ -4,6 +4,7 @@ import { PortableText } from "@portabletext/react";
 import { urlFor } from "../../lib/sanity";
 import { getClient } from "../../lib/sanity.server";
 import Map from "../../components/Map";
+import { useEffect } from "react/cjs/react.development";
 
 const PostComponents = {
   types: {

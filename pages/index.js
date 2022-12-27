@@ -3,6 +3,7 @@ import groq from "groq";
 import Head from "next/head";
 import Link from "next/link";
 import Card from "../components/Card";
+import { useEffect } from "react/cjs/react.development";
 
 const Home = ({ posts }) => {
   console.log(posts);
