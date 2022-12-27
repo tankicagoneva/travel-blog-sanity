@@ -13,6 +13,7 @@
     "@portabletext/react": "^1.0.4",
     "@sanity/client": "^3.3.0",
     "@sanity/image-url": "^1.0.1",
+    "eslint-config-next": "^13.1.1",
     "groq": "^2.15.0",
     "mapbox-gl": "^2.7.1",
     "next": "12.1.0",
